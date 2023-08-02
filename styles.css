@@ -1,0 +1,50 @@
+body {
+    margin: 20px; 
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    font-family: Noto Serif Vithkuqi;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #303036;
+    color: #eaf0ce;
+    border-radius: 15px;
+    box-shadow: 15px 15px #5C80BC;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.my-name:hover{
+    color: #5C80BC;
+    animation: animate__rubberBand;
+}
+
+.red-ball{
+    width: 50px;
+    animation-duration: 10s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* 
+ .red-ball{
+   width: 50px;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  display: flex;justify-content: flex-start; 
+ } */
+
